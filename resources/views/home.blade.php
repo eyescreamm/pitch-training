@@ -20,4 +20,5 @@
         </div>
     </div>
 </div>
+<div id="index"></div>
 @endsection
