@@ -68,6 +68,10 @@
                                 </button>
                             </div>
                         </div>
+                        <div class="text-center mt-3">
+                            <span>Already have an account.&nbsp;</span>
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                        </div>
                     </form>
                 </div>
             </div>
