@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 /* rendering one page */
-Route::get('/{any}', function () {
+
+Route::get('/', function () {
     return view('index');
-})->where('any', '.*');
+});
 
 Auth::routes();
 
